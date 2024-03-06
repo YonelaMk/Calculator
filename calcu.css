@@ -55,7 +55,7 @@ body{
 .calculator-buttons {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(4, auto); /* Adjusted column template */
+    grid-template-columns: repeat(4, auto); 
     padding: 10px;
 }
 
@@ -72,6 +72,58 @@ body{
 .calculator-buttons button:hover {
     background-color: #e0e0e0; 
 }
+button {
+    min-height: 50px;
+    font-size: 20px;
+    font-weight: 600; 
+    border: none;
+    background: rgb(20, 200, 200);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: filter 0.3s, transform 0.3s;
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button:focus {
+    outline: none;
+}
+
+.operator {
+    background: grey;
+    font-size: 30px;
+}
+
+.clear {
+    background: rgb(255, 40, 40);
+    color: red;
+}
+
+.clear:hover {
+    filter: brightness(50%);
+}
+
+.equal-sign {
+    grid-column: -2;
+    grid-row: 2 / span 4;
+    background: rgb(13, 206, 87); 
+    color: limegreen;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .calculator {
+        width: 95%;
+    }
+}
+
 
 
 
