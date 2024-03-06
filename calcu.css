@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background: whitesmoke;
-    background: linear-gradient(to right,blue,black, black);
+    background: linear-gradient(to right,blue,#2c5364, black);
 
 }
 .calculator{
