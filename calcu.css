@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: beige;
     background: linear-gradient(to right,blue,#2c5364, black);
 
 }
@@ -16,6 +16,8 @@ body{
     background: whitesmoke;
     width: 400px;
     border-radius: 0,5px 30px -5px black;
+    box-shadow: 0 5px 0 0 rgb(0, 0, 0);
+
 }.calculator-display{
     background: black;
     color: white;
