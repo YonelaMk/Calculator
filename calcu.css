@@ -13,7 +13,7 @@ body{
 
 }
 .calculator{
-    background: white;
+    background: whitesmoke;
     width: 400px;
     border-radius: 0,5px 30px -5px black;
 }.calculator-display{
@@ -71,6 +71,28 @@ body{
     background-color: #e0e0e0; 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer{
+text-align: center;
+margin-top: 20px;
+clear: both; 
+display: block;
+color: black;
+ }
 
 
 
